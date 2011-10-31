@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="menu_screen_gray">#E2E2E2</color>
+    <color name="selected_gray">#80FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#397CBF</color>
+    <color name="green">#00C000</color>
+        
+
+    <!--
+    <drawable name="row_selected">#DDD</drawable>
+    <drawable name="row_default">#EEE</drawable>
+    <drawable name="row_white">#FFF</drawable>
+    <drawable name="row_zebra_light">#E8E8E8</drawable>
+    <drawable name="row_zebra_dark">#CECECE</drawable>
+    <drawable name="row_zebra_selected">#AAA</drawable>
+
+    <color name="gray">#CBC9CA</color>
+    <color name="bg_gray">#F2F2F2</color>
+    <color name="dark_gray">#686868</color>
+    <color name="light_gray">#AAA</color>
+    <color name="orange">#E65100</color>
+    <color name="light_orange">#FDE3D2</color>
+    <color name="yellow">#FFCC33</color>
+
+    <color name="err_red">#AD3237</color>
+    <color name="light_blue">#C1CDDD</color>
+    <color name="dark_blue">#003366</color>
+    <color name="brown">#86660f</color>
+    <color name="transparent">#00000000</color>
+    <color name="sprint_button_blue">#0066CC</color>
+    <color name="game_tile_red">#B20000</color>
+
+    <color name="game_tile_grey">#585858</color>
+    <color name="transparent_black">#90000000</color>
+    <color name="transparent_white">#40FFFFFF</color>
+    <color name="game_details_light_blue">#7A829E</color>
+    <color name="game_details_light_yellow">#FFB700</color>
+    <color name="home_game_tile_background">#29FFFFFF</color>
+    <color name="game_stats_title_bar_background">#B20000</color>
+    <color name="game_stats_title_bar_score_background">#C13333</color>
+    <color name="game_stats_buttons_bar_background">#CDCCCC</color>
+    <color name="news_screen_background_grey">#EBEBEB</color>
+    <color name="news_screen_background_grey_clicked">#FFFFFF</color>
+    <color name="settings_titlebar_grey">#808080</color>
+    <color name="game_preview_top_bar_score_background">#7A7A7A</color>
+    <color name="league_leaders_tile_bar">#3D3D3D</color>
+
+    <color name="game_details_stats_button_text_unhighlighted">#595959</color>
+    <color name="playbyplay_row_background_dark">#C4C4C4</color>
+    <color name="playbyplay_row_background_light">#E0E0E0</color>
+    <color name="game_details_grey">#F1F1F1</color>
+    -->
+
+</resources>
