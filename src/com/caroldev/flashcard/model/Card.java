@@ -5,25 +5,19 @@ import java.util.Map;
 
 public class Card {
 
-	private String question;
-	private String answer;
+	public static final String FIELD_PREFIX = "f";
+	private static final String QUESTION_KEY = FIELD_PREFIX + 0;
+	private static final String ANSWER_KEY = FIELD_PREFIX + 1;
+
 	private List<String> tags;
 	private Map<String, String> fields;
 
 	public String getQuestion() {
-		return question;
-	}
-
-	public void setQuestion(String question) {
-		this.question = question;
+		return fields.get(QUESTION_KEY);
 	}
 
 	public String getAnswer() {
-		return answer;
-	}
-
-	public void setAnswer(String answer) {
-		this.answer = answer;
+		return fields.get(ANSWER_KEY);
 	}
 
 	public List<String> getTags() {
