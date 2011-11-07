@@ -1,0 +1,53 @@
+大学	だいがく	university, college	大学に行ってもっと勉強したいです。	だいがくにいってもっとべんきょうしたいです	I want to go to college and study more.
+どこ	どこ	where	あの本をどこに置きましたか。	あのほんをどこにおきましたか	Where did you put that book?
+終わる	おわる	finish, end	会議は4時に終わります。	かいぎはよじにおわります	The conference ends at four o'clock.
+学生	がくせい	student	彼は真面目な学生です。	かれはまじめながくせいです	He's a serious student.
+知る	しる	know	誰もその話を知らない。	だれもそのはなしをしらない	No one knows that story.
+払う	はらう	pay	私が払いましょう。	わたしがはらいましょう	Let me pay for that.
+年	とし	year, age	新しい年が始まりました。	あたらしいとしがはじまりました	A new year has started.
+長い	ながい	long	彼女の髪はとても長い。	かのじょのかみはとてもながい	Her hair is very long.
+教える	おしえる	teach, tell	彼は数学を教えています。	かれはすうがくをおしえています	He teaches mathematics.
+落ちる	おちる	fall, sink	猿も木から落ちる。	さるもきからおちる	Monkeys also fall from trees.
+古い	ふるい	old	私は古い車が好きです。	わたしはふるいくるまがすきです	I like old cars.
+なる	なる	become	彼は医者になりました。	かれはいしゃになりました	He became a doctor.
+覚える	おぼえる	memorize, learn	妹は平仮名を全部覚えました。	いもうとはひらがなをぜんぶおぼえました	My little sister learned all the hiragana.
+死ぬ	しぬ	die	犬が病気で死にました。	いぬがびょうきでしにました	Our dog got sick and died.
+働く	はたらく	work	姉は銀行で働いています。	あねはぎんこうではたらいています	My big sister works at a bank.
+午前	ごぜん	morning, a.m.	午前9時のニュースです。	ごぜんくじのにゅーすです	And now for the 9.00 a.m. news.
+それ	それ	that, that one	それはとってもいい話だ。	それはとってもいいはなしだ	That's a really nice story.
+顔	かお	face	彼はタオルで顔を拭きました。	かれはたおるでかおをふきました	He wiped his face with a towel.
+質問	しつもん	question	質問のある方はどうぞ。	しつもんのあるかたはどうぞ	Please feel free to ask any questions.
+見る	みる	see, look at	私は絵を見るのが好きです。	わたしはえをみるのがすきです	I like looking at pictures.
+少ない	すくない	few, little	今年は雨が少ないです。	ことしはあめがすくないです	There's little rain this year.
+名前	なまえ	name	あなたの名前を教えてください。	あなたのなまえをおしえてください	Please tell me your name.
+決める	きめる	decide, agree upon	帰国することに決めました。	きこくすることにきめました	I've decided to go back to my country.
+これ	これ	this, this one	これをください。	これをください	I'll have this please.
+一つ	ひとつ	one (thing)	それを一つください。	それをひとつください	Please give me one of those.
+作る	つくる	make, create	今、朝ご飯を作っています。	いまあさごはんをつくっています	I'm making breakfast now.
+出来る	できる	can do, be good at	彼女はイタリア語が出来ます。	かのじょはいたりあごができます	She knows Italian.
+読む	よむ	read	彼女は雑誌を読んでいます。	かのじょはざっしをよんでいます	She's reading the magazine.
+どちら	どちら	which	肉と魚とどちらが好きですか。	にくとさかなとどちらがすきですか	Which do you prefer, meat or fish?
+こう	こう	like this, this kind of	こう小さい字は読めない。	こうちいさいじはよめない	I can't read such small letters.
+重い	おもい	heavy	この鞄は重いです。	このかばんはおもいです	This bag is heavy.
+誰	だれ	who, whom	誰と会ってみたいですか。	だれとあってみたいですか	Who would you like to meet one day?
+見せる	みせる	show	その写真を見せてください。	そのしゃしんをみせてください	Please show me those pictures.
+好き	すき	favorite, liked	私はワインが好きです。	わたしはわいんがすきです	I like wine.
+皆	みんな	all, everybody	皆にお菓子を上げましょう。	みんなにおかしをあげましょう	Let's give everyone some sweets.
+建てる	たてる	build, erect	私たちは来年、家を建てます。	わたしたちはらいねんいえをたてます	We're building a house next year.
+待つ	まつ	wait, wait for	あなたが来るのを待っています。	あなたがくるのをまっています	I waited for you to come.
+体	からだ	body, health	私は体が丈夫だ。	わたしはからだがじょうぶだ	I'm physically strong.
+見つける	みつける	find	新しい仕事を見つけました。	あたらしいしごとをみつけました	I found a new job.
+どう	どう	how, what	あなたはどう思いますか。	あなたはどうおもいますか	What do you think?
+少し	すこし	a bit, a little while	少し疲れました。	すこしつかれました	I'm a little tired.
+感じる	かんじる	feel, sense	膝に痛みを感じます。	ひざにいたみをかんじます	I feel a pain in my knee.
+冬	ふゆ	winter	カナダの冬はとても寒いです。	かなだのふゆはとてもさむいです	Canada's winters are very cold.
+話す	はなす	speak, tell	母と電話で話しました。	ははとでんわではなしました	I spoke to my mother on the phone.
+兄	あに	older brother	兄は水泳が得意です。	あにはすいえいがとくいです	My big brother is good at swimming.
+送る	おくる	send	彼の家に荷物を送りました。	かれのいえににもつをおくりました	I sent a package to his house.
+国	くに	country	私の国について少しお話しましょう。	わたしのくにについてすこしおはなししましょう	Let me tell you a bit about my country.
+置く	おく	put, leave	彼は鞄を椅子の上に置きました。	かれはかばんをいすのうえにおきました	He put the bag on the chair.
+姉	あね	older sister	姉は大学生です。	あねはだいがくせいです	My big sister's a college student.
+聞く	きく	hear, ask	彼女はラジオを聞いています。	かのじょはらじおをきいています	She's listening to the radio.
+かなり	かなり	fairly, rather	彼はかなり英語が上手です。	かれはかなりえいごがじょうずです	He's pretty good at English.
+乗る	のる	ride, take	駅からはタクシーに乗ってください。	えきからはたくしーにのってください	Please take a taxi from the station.
+思う	おもう	think	私もそう思います。	わたしもそうおもいます	I think so too.
