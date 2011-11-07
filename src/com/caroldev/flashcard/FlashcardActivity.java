@@ -15,6 +15,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.caroldev.flashcard.model.Card;
+import com.caroldev.flashcard.model.CardDeck;
+import com.caroldev.flashcard.util.ImportExportManager;
+
 public class FlashcardActivity extends Activity {
 
 	private TextView question;
@@ -29,32 +33,44 @@ public class FlashcardActivity extends Activity {
 	private Button wrongBtn;
 
 	private int questionIndex;
-	private int TOTAL_NUM_QUESTIONS = 10;
 
 	private int numQuestionsRight, numQuestionsWrong;
+	private CardDeck currDeck;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.flashcard_main);
 
+		importFlashcards();
 		initializeFields();
 		populateQuestionAndHideAnswer(false);
 		setupButtonListners();
+	}
 
+	private void importFlashcards() {
+		ImportExportManager importMgr = new ImportExportManager(this);
+		currDeck = importMgr.importFromResourceFile();
 	}
 
 	private void populateQuestionAndHideAnswer(boolean incrementQuestion) {
 		if (incrementQuestion && moreQuestions()) {
 			questionIndex++;
 		}
-
-		int displayIndex = questionIndex + 1;
-		question.setText("Question " + displayIndex);
+		question.setText(getCurrentCard().getQuestion());
 		animateAnswerVisibility(View.INVISIBLE);
-		StringBuilder questionOrderText = new StringBuilder("<b>").append(displayIndex).append("</b>/").append(TOTAL_NUM_QUESTIONS);
+
+		StringBuilder questionOrderText = new StringBuilder("<b>").append("" + (questionIndex + 1)).append("</b>/").append(getNumCards());
 		Spanned renderedText = Html.fromHtml(questionOrderText.toString());
 		questionOrder.setText(renderedText);
+	}
+
+	private Card getCurrentCard() {
+		return currDeck.getCards().get(questionIndex);
+	}
+
+	private int getNumCards() {
+		return currDeck.getCards().size();
 	}
 
 	private void setupButtonListners() {
@@ -84,8 +100,7 @@ public class FlashcardActivity extends Activity {
 
 	private void updateButtonsState(boolean viewAnswer) {
 		if (viewAnswer) {
-			int displayIndex = questionIndex + 1;
-			answer.setText("Answer " + displayIndex + " - Blah Blah Blah ...");
+			answer.setText(getCurrentCard().getAnswer());
 			question.setTypeface(Typeface.DEFAULT);
 		} else {
 			question.setTypeface(Typeface.DEFAULT_BOLD);
@@ -124,7 +139,7 @@ public class FlashcardActivity extends Activity {
 	private void displayResultInDialog() {
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle("Quiz Results");
-		builder.setMessage("Total number of questions: " + TOTAL_NUM_QUESTIONS + "\nNumber Right: " + numQuestionsRight + "\nNumber Wrong: " + numQuestionsWrong);
+		builder.setMessage("Total number of questions: " + getNumCards() + "\nNumber Right: " + numQuestionsRight + "\nNumber Wrong: " + numQuestionsWrong);
 		builder.setNegativeButton("Start over", new DialogInterface.OnClickListener() {
 
 			@Override
@@ -152,7 +167,7 @@ public class FlashcardActivity extends Activity {
 	}
 
 	private boolean moreQuestions() {
-		return questionIndex < TOTAL_NUM_QUESTIONS - 1;
+		return questionIndex < getNumCards() - 1;
 	}
 
 	private void updateAnswerCount(boolean rightAnswer) {
