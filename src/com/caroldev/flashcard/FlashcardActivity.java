@@ -41,7 +41,6 @@ public class FlashcardActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.flashcard_main);
-
 		importFlashcards();
 		initializeFields();
 		populateQuestionAndHideAnswer(false);
